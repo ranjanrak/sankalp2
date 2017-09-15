@@ -25,7 +25,7 @@ SECRET_KEY = 's79jkz!v4l!50^s(j=v!u_j^_*1*yae!5r1fn612fc3tlll((_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stocksection.com']
+ALLOWED_HOSTS = ['sankalp2-dev.ap-south-1.elasticbeanstalk.com']
 
 
 # Application definition
