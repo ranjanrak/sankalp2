@@ -2,6 +2,10 @@ branch-defaults:
   master:
     environment: sankalp2-dev
     group_suffix: null
+environment-defaults:
+  sankalp2-dev:
+    branch: null
+    repository: null
 global:
   application_name: sankalp2
   branch: null
