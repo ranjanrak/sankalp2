@@ -72,7 +72,7 @@ def login_user(request):
             nse=Nse()
             gainer=nse.get_top_gainers()
             loser=nse.get_top_losers()
-            return redirect('http://gainerandloser.herokuapp.com/index/')
+            return redirect('http://sankalp2-dev.ap-south-1.elasticbeanstalk.com/index/')
 
         else:    
             return render(request, 'daychangers/login.html',{'error_message': 'Go and Create new account'})   
@@ -141,7 +141,7 @@ def checkorder(request):
                 fund_update=decimal.Decimal(inspect.funds) - decimal.Decimal(holding_value)
                 holdingval=decimal.Decimal(100000) - decimal.Decimal(fund_update)
                 Margin.objects.filter(user=user).update(holdings=holdingval,funds=fund_update)
-            return redirect('https://gainerandloser.herokuapp.com/orders') 
+            return redirect('http://sankalp2-dev.ap-south-1.elasticbeanstalk.com/orders') 
 def orders(request):
         user = request.user
         nse=Nse()
