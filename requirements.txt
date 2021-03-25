@@ -34,7 +34,7 @@ PyJWT==1.5.3
 python-dateutil==2.6.1
 pip==9.0.1
 pytz==2017.2
-PyYAML==3.12
+PyYAML==5.4
 redis==2.10.6
 reportlab==3.4.0
 requests==2.9.1
