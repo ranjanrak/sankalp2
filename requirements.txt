@@ -43,7 +43,7 @@ semantic-version==2.5.0
 six==1.10.0
 tabulate==0.7.5
 termcolor==1.1.0
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==15.1.0
 virtualenvwrapper-win==1.2.1
 webencodings==0.5.1
